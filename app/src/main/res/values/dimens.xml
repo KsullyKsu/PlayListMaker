@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="textSize_22">22sp</dimen>
+    <dimen name="textSize_16">16sp</dimen>
+    <dimen name="p21_dp">21dp</dimen>
+    <dimen name="p16_dp">16dp</dimen>
+    <dimen name="p12_dp">12dp</dimen>
+    <dimen name="p0_dp">0dp</dimen>
+</resources>

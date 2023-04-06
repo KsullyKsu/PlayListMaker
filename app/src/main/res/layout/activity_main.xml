@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blu"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="@dimen/p16_dp">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -17,55 +16,63 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginBottom="40dp"
-            android:text="@string/PM"
+            android:text="@string/app_name"
             android:textColor="@color/pure_white"
-            android:textSize="22sp" />
+            android:textSize="@dimen/textSize_22" />
     </FrameLayout>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/Search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="@dimen/p16_dp"
         android:layout_weight="1"
         android:backgroundTint="@color/pure_white"
+        android:insetTop="@dimen/p0_dp"
+        android:insetBottom="@dimen/p0_dp"
         android:text="@string/Search"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        app:cornerRadius="16dp"
+        android:textSize="@dimen/textSize_22"
+        app:cornerRadius="@dimen/p16_dp"
         app:icon="@drawable/search"
         app:iconGravity="textStart"
         app:iconTint="@color/black" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/Media"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="@dimen/p16_dp"
         android:layout_weight="1"
         android:backgroundTint="@color/pure_white"
+        android:insetTop="@dimen/p0_dp"
+        android:insetBottom="@dimen/p0_dp"
         android:text="@string/Media"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        app:cornerRadius="16dp"
+        android:textSize="@dimen/textSize_22"
+        app:cornerRadius="@dimen/p16_dp"
         app:icon="@drawable/library"
         app:iconGravity="textStart"
         app:iconTint="@color/black" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/Settings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="28dp"
         android:layout_weight="1"
         android:backgroundTint="@color/pure_white"
+        android:insetTop="@dimen/p0_dp"
+        android:insetBottom="@dimen/p0_dp"
         android:text="@string/Set"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        app:cornerRadius="16dp"
+        android:textSize="@dimen/textSize_22"
+        app:cornerRadius="@dimen/p16_dp"
         app:icon="@drawable/settings"
         app:iconGravity="textStart"
         app:iconTint="@color/black" />
-
 
 </LinearLayout>
