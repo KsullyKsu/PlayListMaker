@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Search">Search</string>
+    <string name="Media">Media</string>
+    <string name="Set">Settings</string>
+    <string name="Black_T">Black theme</string>
+    <string name="Share">Share</string>
+    <string name="Help">Help</string>
+    <string name="Rule">Rules</string>
+</resources>
