@@ -20,7 +20,7 @@
     <androidx.appcompat.widget.SwitchCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="24dp"
         android:paddingVertical="@dimen/p21_dp"
         android:paddingStart="@dimen/p16_dp"
         android:paddingEnd="@dimen/p12_dp"
